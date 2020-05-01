@@ -1,0 +1,95 @@
+body{
+    background-repeat:no-repeat;
+    max-width:100%;
+    height:730px;
+    background-color: #cccccc;
+    background-position:center;
+    background: #000000;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #000000, #0f9b0f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #000000, #0f9b0f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-family:helvetica
+}
+h2{
+    border-bottom:2px solid white;
+    font-weight:600 !important;
+    font-size:40px;
+}
+.buttonn{
+    text-align:center;
+    margin-top:40px;
+}
+.btn1{
+    width:500px;
+    height:80px;
+    font-size:36px;
+    font-weight:600;
+}
+.sub{
+    font-size:20px;
+    margin-top:-13px;
+    text-align:center;
+}
+.text{
+    height:20px;
+}
+.icon{
+    font-size:70px;
+    margin-top:70px;
+    margin-left:50px;
+}
+.header{
+    margin-top:0;
+    float:right;
+    margin-left:10px;
+}
+ul{
+    list-style:none;
+    float:right;
+    margin-right:130px;
+    font-size:30px;
+    margin-top:0;
+}
+li:hover{
+    background:yellow;
+}
+.btdrop:hover{
+    background-color:#FFD300;
+}
+.text1{
+    width:1000px;
+    float:right;
+    margin-top:-350px;
+    margin-right:20px;
+    color:yellow;
+}
+@media (max-width:1450px){
+    .text1{
+        width:100%;
+        margin-top:50px;
+        padding-left:40px;
+    }
+    .icon{
+       display:none;
+    }
+    .btn1{
+        margin-top:30px;
+    }
+}
+@media (max-width:300px){
+     .header{
+        padding-top:40px;
+    }
+}
+.icons2{
+    margin-top:100px;
+    width:100%;
+    display:block;
+}
+.tables{
+    background-color: #111;
+    margin-bottom:-30px;
+    border-bottom:1px solid white;
+}
+i:hover{
+    color:yellow;
+}
